@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+	<link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="card bg-light">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 style="text-align: center; padding-top: 5%;"><i class="fab fa-facebook"></i>
+						<div class="col-lg-12">
+
+						</div>
+						<div class="col-lg-12">
+							<h1 style="text-align: center; ">PhaseBook</h1>
+						</div>
+				</div>
+
+
+				<article class="card-body mx-auto" style="max-width: 400px;">
+					<h4 class="card-title mt-3 text-center">Create Account</h4>
+					<p class="text-center">Get started with your free account</p>
+					<p>
+						<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via
+							Twitter</a>
+						<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via
+							facebook</a>
+					</p>
+					<p class="divider-text">
+						<span class="bg-light">OR</span>
+					</p>
+
+					<form action = "register.php" method="POST">
+
+
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+							</div>
+							<input name="name" class="form-control" placeholder="Full name" type="text">
+						</div> <!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+							</div>
+							<input name="email" class="form-control" placeholder="Email address" type="email">
+						</div> <!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+							</div>
+							<select class="custom-select" style="max-width: 120px;">
+								<option selected="">+91</option>
+								<option value="1">+972</option>
+								<option value="2">+00</option>
+								<option value="3">+971</option>
+							</select>
+							<input name="pnumber" class="form-control" placeholder="Phone number" type="text">
+						</div> <!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-building"></i> </span>
+							</div>
+							<select name="job" class="form-control">
+								<option selected=""> Select job type</option>
+								<option>Student</option>
+								<option>Teacher</option>
+								<option>Jobless</option>
+								<option>Software Developer</option>
+								<option>Software Engineer</option>
+								<option>Android Developer</option>
+								<option>Doctor</option>
+								<option>CEO</option>
+								<option>CFO</option>
+							</select>
+						</div> <!-- form-group end.// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+							</div>
+							<input name="password" class="form-control" placeholder="Create password" type="password">
+						</div> <!-- form-group// -->
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+							</div>
+							<input name="cpassword" class="form-control" placeholder="Repeat password" type="password">
+						</div> <!-- form-group// -->
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-block"> Create Account </button>
+						</div> <!-- form-group// -->
+						<p class="text-center">Have an account? <a href="index.html">Log In</a> </p>
+						<p style = "text-align: center;" class="mt-5 mb-3 text-muted">&copy; 2019-2020 by Keshav Mishra</p>
+					</form>
+				</article>
+			</div> <!-- card.// -->
+
+		</div>
+		<!--container end.//-->
+
+
+</body>
+
+</html>
