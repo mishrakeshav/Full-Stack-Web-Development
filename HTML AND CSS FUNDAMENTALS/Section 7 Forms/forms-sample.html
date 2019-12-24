@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<style>
+label{
+display:block;
+width:200px;
+float:left;
+text-align:right;
+margin:10px 5px;
+clear:left;
+}
+input,select,textarea{
+	margin: 10px 5px;
+	vertical-align:middle;
+}
+.checks{
+vertical-align:bottom;
+}
+#submit{
+margin-left:200px;
+}
+</style>
+</head>
+
+<body>
+<h1>Forms</h1>
+<form action="form-submit.php" method = "get">
+<fieldset>
+<legend>Personal info</legend>
+<label for="first-name">First Name:</label>
+<input id = "first-name" type = "text" name="first-name" autofocus required />
+<br/>
+<label for="email">Email:</label>
+<input id = "email" type = "email" name="Email" placeholder= "enter your email" required/>
+<br/>
+</fieldset>
+<label for="checkbox">Checkbox:</label>
+<input class = "checks" id = "checkbox" type="checkbox" name = "check" value = "ch1" />check 1
+
+<input class = "checks" id = "checkbox" type="checkbox" name = "check" value = "ch2" />check 2
+
+<br/>
+<label for="radio">Radio:</label>
+<input class = "checks" id = "radio" type="radio" name = "radio" value = "r1" />radio 1
+<input class = "checks" id = "radio" type="radio" name = "radio" value = "r2" />radio 2
+<br/>
+<label for="message">Message:</label>
+<textarea id = "message">Your message here</textarea>
+<br/>
+<label for="dropdrown">Dropdown:</label>
+<select id = "dropdrown" name = "dropdrown">
+<option value="o1">Option 1</option>
+<option value="o2">Option 2</option>
+<option value="o3">Option 3</option>
+<option value="o4">Option 4</option>
+<option value="o5">Option 5</option>
+</select>
+<br/>
+<label for="password">Password:</label>
+<input id = "password" type="password" name="password"/>
+<br/>
+<label for="number">Number:</label> 
+<input id = "number" type="number" name="number"/>
+<br/>
+<label for="range">Range: </label>
+1<input id = "range" type="range" name="range" min = "1" max = "10"  value = "5"/>10
+
+<br/>
+<label for="date">Date: </label>
+<input id = "date" type="date" name="date"/>
+<br/>
+<label for="time">Time: </label>
+<input id = "time" type="time" name="time"/>
+<br/>
+<label for="color">Color: </label>
+<input id = "color" type="color" name="color"/>
+
+<br/>
+<input id = "submit" type="submit" value="send"/>
+</form>
+
+
+</body>
+</html>
