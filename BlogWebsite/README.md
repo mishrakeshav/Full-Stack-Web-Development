@@ -4,6 +4,6 @@
  </p>
  <p>Here are some screenshots of the website</p>
  <h6>Home page</h6>
- <img src = "Screenshots/compose.JPG">
+ <img src = "Screenshots/home.JPG">
   <h6>Compose</h6>
-  <img href = "">
+  <img src = "Screenshots/home.JPG">
