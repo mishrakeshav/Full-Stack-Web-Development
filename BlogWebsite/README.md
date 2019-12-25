@@ -1,1 +1,1 @@
-<h1>Blog Website</h1>
+<h1>Daily Journal</h1>
