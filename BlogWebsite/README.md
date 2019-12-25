@@ -3,7 +3,7 @@
     ejs,<br> nodejs, expressjs, html, css, bootstrap, javascript
  </p>
  <p>Here are some screenshots of the website</p>
- <h6>Home page</h6>
+ <h3>Home page</h3>
  <img src = "Screenshots/home.JPG">
-  <h6>Compose</h6>
-  <img src = "Screenshots/home.JPG">
+  <h3>Compose</h3>
+  <img src = "Screenshots/compose.JPG">
